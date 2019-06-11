@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1{
+    font-family: 'Quicksand', sans-serif;
+    letter-spacing: 2px;
+    font-weight: lighter;   
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: hotpink;
+}
+
+.choose{
+    color: orange
+}
+
+/* IMAGE */
+
+.img-container{
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+
+
+/* INPUT SECTION */
+
+.input-section{
+    margin: 30px 0px 30px 0px;
+    width: 400px;
+}
+
+.inputs{
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid hotpink;
+}
+
+.add-option{
+    margin-top: 10px;
+}
+
+input:focus{
+    outline: none;
+}
+
+/* BUTTONS */
+
+.button-style{
+    color: hotpink;
+    border: 1px solid hotpink;
+    border-radius: 5px;
+    padding: 7px;
+    width: 60px;;
+}
+
+.button-style:hover{
+    color: white;
+    border: 1px solid white;
+    background-color: orange;
+}
+
+button:focus{
+    outline: none;
+}

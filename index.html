@@ -5,17 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Help me choose</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="images/goat.jpg" alt="goat">
-    
-    <h1>Help me choose between..</h1>
-    <div>
-        <div>
-            <input placeholder="Something">
+    <div class="container">
+
+        <div class="img-container">
+            <img src="images/goat.jpg" alt="goat">
         </div>
-        <button>Add</button>
+
+        <h1>Help me <span class="choose">choose</span> between..</h1>
+        <div class="input-section">
+            <div class="inputs">
+                <input placeholder="Something">
+            </div>
+            <button class="add-option button-style">Add</button>
+        </div>
+        <button class="button-style">Go!</button>
     </div>
-    <button>Go!</button>
 </body>
 </html>
